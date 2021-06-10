@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="./css/sgame.css">
+<link rel="stylesheet" href="./css/buttons.css">
+<title>dynamic sunburst click</title>
+</head><body>
+
+<div class="body">
+<table class="table">	
+    <tr>
+    <th>
+    <button
+    id="btm"
+    class="buttonm"
+    onclick="minus()"
+    >
+    -
+    </button>
+    </th>
+    
+    <th>
+    <button
+    id="bt0"
+    class="button0"
+    onclick="add()"
+    >
+    +
+    </button>
+    </th>   
+    <th><button  id="bt1" class="button1" onclick="newGame()">New Game</button ></th>
+    <th><button  id="bt4" class="button4" onclick="Quarter()">Quarter</button></th>
+    <!-- <th><button  id="bt4" class="button4" onclick="Quarter2()">Quarter2</button></th> -->
+    <th><button  id="bt6" class="button6" onclick="Solve_mode()">Solve_mode</button></th>
+    <th><button  id="bt5" class="button5" onclick="Half()">Half</button></th>
+    <th><button  id="bt2" class="button2" onclick="UndoFunction()">Undo</button></th>
+    <th><button  id="Proportion" class="button4" ></button></th>
+    </tr>
+    <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+		<th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+    </table>
+    <svg id="partitionSVG"></svg>
+</div>
+<script src="./public_js/frontscript1.js"></script>
+<script src="./public_js/d3.v5.min.js"></script>  
+<script src="./public_js/scriptnew.js"></script>
+<script src="./public_js/luoji.js?depth=7"></script>
+<script src="./public_js/d3-random.min.js"></script>  
+</body>
+</html>
