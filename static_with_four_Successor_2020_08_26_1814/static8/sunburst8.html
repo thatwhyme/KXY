@@ -1,0 +1,42 @@
+<!doctype html>
+<html><head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../css/sgame.css">
+<link rel="stylesheet" href="../css/slider.css">
+<link rel="stylesheet" href="../css/buttons.css">
+
+<title>Coding game</title>
+</head><body>
+<div class="body">
+<table class="table">
+	<tr>
+		<th><button id="btm" class="buttonm" onclick="window.location.href='../static7/sunburst7.html';">-</button></th>
+		<th><button id="bt0" class="button0" onclick="window.location.href='../static8/sunburst8.html';">+</button></th>
+		<th><button  id="bt1" class="button1" onclick="newGame()">New Game</button ></th>
+		<th><button  id="bt2" class="button2" onclick="UndoFunction()">Undo</button></th>
+  		<th><button  id="bt3" class="button3" onclick="Repeat()">Repeat</button></th>
+   		<th><button  id="bt4" class="button4" onclick="Example()">Example</button></th>
+		<th><button  id="bt5" class="button5" onclick="Random()">Auto</button></th>
+        <th><button id="Proportion" class="buttonprop"></button></th>
+		<th><div class="slidecontainer"><input type="range" min="1" max="100" value="30" class="slider" id="myRange"></div></th>
+     </tr><tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th><div id = "NUM"></div></th>
+</tr>
+</table>
+<svg id="partitionSVG"></svg>
+</div>
+<script src="../public_js/d3.v5.min.js"></script>
+<script src="../public_js/frontscript1.js"></script>
+<script src="../public_js/frontscript2.js"></script>
+<script src="../public_js/scriptnew.js"></script>
+<script src="../public_js/luoji.js?depth=9"></script>
+
+</body></html>
