@@ -1,1 +1,8 @@
+The July's work focused on the original static and dynamic game:
 
+Static game: Alice enumerates all the code-string into set R, and then Bob recodes the source-stirng restored in \tau \in R.
+Dynamic game: Alice enumerates one code-string, then Bob recodes the source-string.
+
+August work mainly focused on the max-load for greedy and global strategies of Bob. It seems hard to give a upper bound for the max-load.
+
+November work assumed the max-load in advance and try to design a universal strategy for Alice to beat greedy Bob.
